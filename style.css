@@ -101,10 +101,48 @@ button {
     transition: all 200ms ease;
 }
 
+button:hover {
+    transform: scale(1.15);
+}
+
+button#equal {
+    height: 130px;
+}
+
 .toggle-icon {
     position: absolute;
     top: 30px;
     right: 30px;
     color: white;
 
+}
+
+/*light-theme*/
+
+.calculator {
+    background-color: white;
+}
+
+.calculator #display {
+    color: black;
+}
+
+.calculator button#clear {
+    background-color: lightcoral;
+    color: red;
+}
+
+.calculator button.btn-number {
+    background-color: lightblue;
+    color: black;
+}
+
+.calculator button.btn-operator {
+    background-color: purple;
+    color: lightpink;
+}
+
+.calculator button.btn-equal {
+    background-color: cornflowerblue;
+    color: black;
 }
