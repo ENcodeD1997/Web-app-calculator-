@@ -9,8 +9,8 @@
 </head>
 <body>
     <div class="container">
-        <div class="calculator-dark-theme">
-            <div class="theme-toggle active">
+        <div class="calculator dark">
+            <div class="theme-toggle">
                 <i class="toggle-icon"></i>
             </div>
             <div class="display-screen">
@@ -21,8 +21,8 @@
                 <table>
                     <tr>
                         <td><button class="btn-operator" id="clear">c</button></td> <!--operators non numbered buttons or buttons that makeup the desired functions with your desired numbers-->
-                        <td><button class="btn-operator" id="&devide">/</button></td>
-                        <td><button class="btn-operator" id="&times">*</button></td>
+                        <td><button class="btn-operator" id="/">&divide</button></td>
+                        <td><button class="btn-operator" id="*">&times</button></td>
                         <td><button class="btn-operator" id="backspace"><</button></td>
                     </tr>
                     <!--numbered buttons and button operator-->
@@ -45,7 +45,8 @@
                         <td><button><div class="btn-number" id="1">1</div></button></td>
                         <td><button><div class="btn-number" id="2">2</div></button></td>
                         <td><button><div class="btn-number" id="3">3</div></button></td>
-                        <td><button><div class="btn-equal" id="equal">=</div></button></td>
+                        <!--rowspan spans rows depending on how much you want -->
+                        <td rowspan="2"><button><div class="btn-equal" id="equal">=</div></button></td>
                     </tr>
                     <!--Operators and button numbered 0-->
                     <tr>
