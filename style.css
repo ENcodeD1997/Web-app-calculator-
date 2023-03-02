@@ -55,7 +55,8 @@ body{background-image: linear-gradient(to bottom right, rgba(79,61,176,1),rgba(2
 .theme-toggle::before {
     content: "";
     height: 30px;
-    width: absolute;
+    width: 30px;
+    position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
@@ -63,7 +64,8 @@ body{background-image: linear-gradient(to bottom right, rgba(79,61,176,1),rgba(2
     z-index: -1;
 }
 /*.display screen & #display are are a class and id respectively*/
-/
+/*theme toggle button will not show up must figure that out.*/
+/*so far everything is showing up ok except for that one thing.*/
 #display {
     margin: 0 10px;
     height: 150px;
