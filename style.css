@@ -51,7 +51,7 @@ body{background-image: linear-gradient(to bottom right, rgba(79,61,176,1),rgba(2
 .theme-toggle.active::before {
     background-color: white;
 }
-
+/*The mistake I was making was the positioning of the toggle mainly the positioning I set it to absolute and that worked.*/
 .theme-toggle::before {
     content: "";
     height: 30px;
@@ -78,4 +78,19 @@ body{background-image: linear-gradient(to bottom right, rgba(79,61,176,1),rgba(2
     margin-bottom: 20px;
     overflow-x: scroll;
 }
+/*sets scroll bar to display block and height to the 3px*/
+#display::-webkit-scrollbar {
+    display: block;
+    height: 3px;
+}
 
+button {
+    border: none;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
