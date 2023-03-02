@@ -4,60 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Calculator App</title>
 </head>
 <body>
     <div class="container">
-        <div class="calculator">
-            <div class="theme-toggle">
+        <div class="theme-toggle">
+            <div class="theme-toggle active">
                 <i class="toggle-icon"></i>
+                <div class="display-screen"></div>
             </div>
-            <div class="display-screen">
-                <div id="display"></div>
-            </div>
-            <!--operand buttons -->
             <div class="buttons">
                 <table>
                     <tr>
-                        <td><button class="btn-operator" id="clear">c</button></td> <!--operators non numbered buttons or buttons that makeup the desired functions with your desired numbers-->
-                        <td><button class="btn-operator" id="/">&divide</button></td>
-                        <td><button class="btn-operator" id="*">&times</button></td>
+                        <td><button class="btn-operator" id="clear">c</button></td>
+                        <td><button class="btn-operator" id="/">&divide;</button></td>
+                        <td><button class="btn-operator" id="*">&times;</button></td>
                         <td><button class="btn-operator" id="backspace"><</button></td>
                     </tr>
-                    <!--numbered buttons and button operator-->
                     <tr>
-                        <td><button class="btn-number" id="7">7</button></td>
-                        <td><button class="btn-number" id="8">8</button></td>
-                        <td><button class="btn-number" id="9">9</button></td>
-                        <td><button class="btn-operator" id="-">-</button></td>
+                        <td><button class="btn-number" id="7">7</div>
+                        <td><button class="btn-number" id="8">8</div>
+                        <td><button class="btn-number" id="9">9</div>
+                        <td><button  class="btn-operator" id="-">-</div>
+                        </td>
                     </tr>
-                    <!--numbered buttons-->
                     <tr>
-                        <td><button><div class="btn-number" id="4">4</div></button></td>
-                        <td><button><div class="btn-number" id="5">5</div></button></td>
-                        <td><button><div class="btn-number" id="6">6</div></button></td>
-                        <td><button><div class="btn-number" id="+">+</div></button></td>
-                
+                        <td><button class="btn-number" id="4">4</button></td>
+                        <td><button class="btn-number" id="5">5</button></td>
+                        <td><button class="btn-number" id="6">6</button></td>
+                        <td><button class="btn-operator" id="+">+</button></td>
                     </tr>
-                    <!--numbered buttons & equal sign-->
                     <tr>
-                        <td><button><div class="btn-number" id="1">1</div></button></td>
-                        <td><button><div class="btn-number" id="2">2</div></button></td>
-                        <td><button><div class="btn-number" id="3">3</div></button></td>
-                        <!--rowspan spans rows depending on how much you want -->
-                        <td rowspan="2"><button><div class="btn-equal" id="equal">=</div></button></td>
+                        <td><button class="btn-number" id="3">3</div></td>
+                        <td><button class="btn-number" id="2">2</div></td>
+                        <td><button class="btn-number" id="1">1</div></td>
+                        <td rowspan="2"><button class="btn-equal" id="equal">=</div></td>
                     </tr>
-                    <!--Operators and button numbered 0-->
                     <tr>
-                        <td><button><div class="btn-operator" id="(">(</div></button></td>
-                        <td><button><div class="btn-number" id="0">0</div></button></td>
-                        <td><button><div class="btn-operator" id=")">)</div></button></td>
+                        <td><button class="btn-operator" id="(">(</button></td>
+                        <td><button class="btn-number" id="0">0</button></td>
+                        <td><button class="btn-operator" id=")">)</button></td>
                     </tr>
                 </table>
             </div>
         </div>
     </div>
-    <script src="./script.js"></script>
+    
 </body>
 </html>
