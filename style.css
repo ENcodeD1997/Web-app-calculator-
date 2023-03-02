@@ -24,7 +24,8 @@ body{background-image: linear-gradient(to bottom right, rgba(79,61,176,1),rgba(2
     display: grid;
     place-items: center;
 }
-
+/* calculator is only needed from the class not calculator dark/ the full name of the class this is only to
+   specify that this is indeed the code for the dark theme.*/
 .calculator {
     position: relative;
     height: auto;
@@ -78,7 +79,7 @@ body{background-image: linear-gradient(to bottom right, rgba(79,61,176,1),rgba(2
     margin-bottom: 20px;
     overflow-x: scroll;
 }
-/*sets scroll bar to display block and height to the 3px*/
+/*sets scroll bar to display block and height to the 3px allows number results to scroll the screen as they appear larger etc*/
 #display::-webkit-scrollbar {
     display: block;
     height: 3px;
@@ -93,4 +94,40 @@ button {
     font-size: 20px;
     cursor: pointer;
     transition: all 200ms ease;
+}
+/*come back to this later I want to use scale in another project*/
+button:hover {
+    transform: scale(1.20);
+}
+
+button#equal {
+    height: 120px;
+}
+
+.calculator {
+    background-color: white;
+}
+
+.calculator #display {
+    color: black;
+}
+
+.calculator button#clear {
+    background-color: greenyellow;
+    color: darkgreen;
+}
+
+.calculator button.btn-number {
+    color: black;
+    background-color: lightblue;
+}
+
+.calculator button.btn-operator {
+    background-color: lightcoral;
+    color: red;
+}
+
+.calculator button#equal {
+    background-color: darkblue;
+    color: lightblue;
 }
