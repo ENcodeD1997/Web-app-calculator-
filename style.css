@@ -131,3 +131,33 @@ button#equal {
     background-color: darkblue;
     color: lightblue;
 }
+
+/*dark theme*/
+
+.calculator.dark {
+    background-color: #071115;
+}
+
+.calculator.dark #display {
+    color: #f8fafd;
+}
+
+.calculator.dark button#clear {
+    background-color: darkred;
+    color: #ff0011;
+}
+
+.calculator.dark button.btn-number {
+    background-color: lightgreen;
+    color: black;
+}
+
+.calculator.dark button.btn-operator {
+    background-color: darkmagenta;
+    color: pink;
+}
+
+.calculator.dark button#equal {
+    background-color: lightblue;
+    color: black;
+}
