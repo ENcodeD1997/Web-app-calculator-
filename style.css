@@ -15,7 +15,7 @@ a{
     color: white;
 }
 
-body{background-image: linear-gradient(to bottom right, rgba(79,61,176,1),rgba(210,53,165));
+body{background-image: linear-gradient(to bottom right, rgb(38, 0, 255),rgb(53, 210, 205));
 }
 
 .container{
@@ -160,4 +160,11 @@ button#equal {
 .calculator.dark button#equal {
     background-color: lightblue;
     color: black;
+}
+
+.header-one {
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding: 1.5rem;
 }

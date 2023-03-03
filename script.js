@@ -1,6 +1,8 @@
 const display = document.querySelector('#display');
 const buttons = document.querySelectorAll('button');
-
+// query selectors aren't hard to understand I have a decent grasp of the concept.//
+// this section selects all buttons to designated button presses.//
+//Each button press is linked to an html class or an html id which then is linked to the button that represents that class or id//
 buttons.forEach((item) => {
     item.onclick = () => {
         if (item.id == 'clear') {
@@ -18,7 +20,7 @@ buttons.forEach((item) => {
         }
     }
 })
-
+// This section is the dark/light toggle function the function is coded correctly I have to figure out why the button wont show//
 const themeToggleButton = document.querySelector('.theme-toggle');
 const calculator = document.querySelector('.calculator');
 const toggleIcon = document.querySelector('.toggle-icon');
@@ -28,3 +30,4 @@ themeToggleButton.onclick = () => {
     themeToggleButton.classList.toggle('active');
     isDark = !isDark;
 }
+ // some of my goals in this project is to understand the majority of this code // 
